@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+    <metadata minClientVersion="4.0">
+        <id>Sanford.MidiToolkit</id>
+        <version>5.0.2</version>
+        <title>MIDI Toolkit</title>
+        <authors>Leslie Sanford</authors>
+        <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+        <projectUrl>http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit</projectUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <description>A toolkit for creating MIDI applications.</description>
+        <copyright>Leslie Sanford 2006</copyright>
+        <language>en-US</language>
+        <tags>midi</tags>
+    </metadata>
+    <files>
+        <file src="bin\Release\Sanford.Collections.dll" target="lib\net40\Sanford.Collections.dll" />
+        <file src="bin\Release\Sanford.Multimedia.dll" target="lib\net40\Sanford.Multimedia.dll" />
+        <file src="bin\Release\Sanford.Multimedia.Midi.dll" target="lib\net40\Sanford.Multimedia.Midi.dll" />
+        <file src="bin\Release\Sanford.Multimedia.Timers.dll" target="lib\net40\Sanford.Multimedia.Timers.dll" />
+        <file src="bin\Release\Sanford.Threading.dll" target="lib\net40\Sanford.Threading.dll" />
+    </files>
+</package>
